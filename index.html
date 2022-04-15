@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Pension Alimenticia</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Roboto+Condensed">
+    <link rel="stylesheet" href="assets/css/Animated-CSS-Waves-Background-SVG.css">
+    <link rel="stylesheet" href="assets/css/ebs-footer-1.css">
+    <link rel="stylesheet" href="assets/css/ebs-footer-2.css">
+    <link rel="stylesheet" href="assets/css/ebs-footer-3.css">
+    <link rel="stylesheet" href="assets/css/ebs-footer-4.css">
+    <link rel="stylesheet" href="assets/css/ebs-footer-5.css">
+    <link rel="stylesheet" href="assets/css/ebs-footer-6.css">
+    <link rel="stylesheet" href="assets/css/ebs-footer.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body style="background: var(--bs-blue);">
+    <h1 style="text-align: center;color: var(--bs-white);font-size: 49.64px;font-weight: bold;padding: 10px;margin: 4px;">Calculadora de Pensión Alimenticia</h1>
+    <section style="padding: 10px;margin: 10px;text-align: center;">
+        <label class="form-label" style="color: var(--bs-white);font-weight: bold;font-size: 26px;">Hijos</label>
+        <input type="number" id="h">
+        <label class="form-label" style="color: var(--bs-white);font-weight: bold;font-size: 26px;margin: 0px;margin-left: 10px;">Salario Neto</label>
+        <input type="number" id="s">
+    </section>
+    <section style="margin: 10px;padding: 10px;text-align: center;">
+        <label class="form-label" style="color: var(--bs-white);font-weight: bold;text-align: center;font-size: 26px;">Pensión Total</label>
+        <input type="text" class="form-control" id="p" name="p" placeholder="Pensión Total" style="text-align: center;margin: 9px;font-weight: bold;font-size: 26px;">
+    </section>
+    <section style="text-align: center;">
+        <label class="form-label" style="font-weight: bold;color: var(--bs-white);font-size: 26px;">Pensión por Hijo</label>
+        <input type="text" class="form-control" id="ph" name="ph" placeholder="Pensión Por Hijo" style="text-align: center;margin: 9px;font-weight: bold;font-size: 26px;">
+    </section>
+    <section style="text-align: center;">
+        <input type="button" value="Calcular" onclick="calculo()" class="btn btn-success" style="text-align: center;margin: 9px;font-weight: bold;font-size: 26px;">
+    </section>
+    <section id="footer" class="footer-section" style="text-align: center;">
+        <div class="container-fluid footer">
+            <div class="container footer-wrapper" style="height: 99px;">
+                <div class="row foot-box" id="fbox-1">
+                    <div class="col-12 col-sm-6 col-md-6 footer-top-box" id="footer-top-right">
+                        <p id="footer-contact-text" style="text-align: center;font-weight: bold;"><br>AGENDE UNA CONSULTORIA AL:&nbsp;<br>&nbsp;+505-8602-0426 | +505-2277-1243 | +505-2270-3067<br></p>
+                        <p id="footer-contact-text-1" style="text-align: center;font-weight: bold;"><br><br>DIRECCIÓN:&nbsp;<br>Edificio Park Plaza, km 4.5 carretera a Masaya, de Tip top Los Robles 75 vrs abajo.<br><br><br></p>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 footer-top-box" style="height: 22px;text-align: center;">
+                        <div class="wrapper">
+                            <div class="form-group mb-3">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <picture><img src="assets/img/LOGO%20SIN%20LEYENDA-04.png" style="width: 70%;text-align: center;margin: 15px;padding: 15px;"></picture>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row foot-box" id="fbox-3">
+                    <div class="col-12 col-sm-12 col-md-12" id="copyright-cont">
+                        <p id="copright-tex">Hernández &amp; Asociados 2022</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/ebs-footer-2.js"></script>
+    <script src="assets/js/ebs-footer.js"></script>
+    <script src="assets/js/ebs-footer-1.js"></script>
+    <script src="assets/js/Animated-Numbers-Vanilla-JS.js"></script>
+    <script src="assets/js/calculadora.js"></script>
+</body>
+
+</html>
